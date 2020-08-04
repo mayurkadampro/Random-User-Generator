@@ -1,0 +1,87 @@
+.alignment {
+  margin-top: 20vh;
+}
+
+.headerText {
+  font-size: 21px;
+  font-weight: 600;
+  height: 18vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.background {
+  background: linear-gradient(
+    to top,
+    rgb(255, 255, 255) 50%,
+    rgb(44, 46, 49) 50%
+  );
+  height: 100vh;
+}
+
+.RowCenterOne {
+  text-align: center;
+  height: 27vh;
+  display: flex;
+  align-items: center;
+  font-size: 60px;
+  color: white;
+}
+
+.RowCenterTwo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-circle.btn-xl {
+  width: 50px;
+  height: 50px;
+  padding: 10px 16px;
+  border-radius: 35px;
+  font-size: 15px;
+  line-height: 1.33;
+}
+
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  padding: 6px 0px;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.42857;
+}
+
+.redoBtn {
+  background-color: #2c2e31;
+  color: white;
+}
+
+.BottomSide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-circular {
+  width: 130px;
+  height: 130px;
+  background-size: cover;
+  display: block;
+  border-radius: 100px;
+  border: 3px solid #D8D8D8;
+  position: relative;
+  top: 50px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+}
+
+.cardBody{
+  margin-top: 60px;
+}
+
+.nameText{
+  font-size: 28px;
+}
