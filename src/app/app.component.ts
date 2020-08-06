@@ -37,7 +37,7 @@ export class AppComponent {
 
   playSound() {
     var sound = new Howl({
-      src: ["../assets/confirm_delivery.mp3"]
+      src: ["./assets/confirm_delivery.mp3"]
     });
      
     sound.play();
